@@ -6,3 +6,6 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });*/
+
+// this file was called App.test.js
+// to run this add the following script in node.js.yml : - run: npm test line 31
