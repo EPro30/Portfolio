@@ -23,7 +23,7 @@ const About = () => {
                             I am Riya Singh, attaining a Bachelors degree in Computer Science at University of Central Florida.
 
                         </p><br/>
-                        <a className = "btn" onClick={handleClick}> Download CV</a>
+                        <a className = "btn" onClick={handleClick}> Download Resume</a>
                     </div>
 
                     <div className = "about__skills grid">
