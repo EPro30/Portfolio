@@ -43,7 +43,7 @@ const Sidebar = () => {
                 </div>
             </nav>
             <div className="nav_footer">
-                <span className="copyright">&copy; 2023 - 2024.</span>
+                <span className="copyright">&copy; 2023 - 2026.</span>
             </div>
         </aside>
 

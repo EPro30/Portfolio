@@ -14,7 +14,7 @@ const Home = () => {
                 <span className="home__education">Work in progress...</span>
 
                 <HeaderSocials/>
-                <a href="#contact" className="btn">Please Contact me @ </a>
+                <a href="#contact" className="btn">Please Contact me @</a>
 
                 <ScrollDown/>
             </div>

@@ -3,15 +3,17 @@ import "./contact.css";
 const Contact = () => {
     return (
         <section className = "contact container section" id = 'contact'> 
-            <h2 className = "section__title">Get In Touch</h2><br/><br/>
+            <h2 className = "section__title">Get In Touch!</h2><br/><br/>
 
             <div className = "contact__container grid">
-                <div className = "contact__info">
-                    <h3 className = "contact__title">Let's talk about everything!</h3>
-                    <p className = "contact__details">Don't like forms? Send me an email. 👋</p>
+               <div className="contact__info">
+                    <i className="fas fa-envelope"></i>
+                    <span className="contact__details">
+                        Feel free to reach out at <em>rise.s10618@gmail.com</em>
+                    </span>
                 </div>
 
-                <form action = "" className = "contact__form">
+                {/* <form action = "" className = "contact__form">
                     <div className = "contact__form-group">
                         <div className = "contact__form-div">
                             <input 
@@ -51,7 +53,7 @@ const Contact = () => {
                     </div>
 
                     <button className = "btn">Send Message</button>
-                </form>
+                </form> */}
             </div>
         </section>
     )

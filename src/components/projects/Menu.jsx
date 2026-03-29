@@ -27,7 +27,6 @@ const Menu = [
       category: "Branding",
       link: "https://github.com/EPro30",
     },
-    ,
     {
       id: 4,
       image: Project4,
@@ -35,7 +34,6 @@ const Menu = [
       category: "CurrentProjects",
       link:"https://github.com/EPro30/Portfolio",
     },
-    ,
     {
       id: 5,
       image: Project5,
@@ -43,7 +41,6 @@ const Menu = [
       category: "Unity",
       link: "https://github.com/EPro30/Unity-Projects",
     },
-    ,
     {
       id: 6,
       image: Project6,

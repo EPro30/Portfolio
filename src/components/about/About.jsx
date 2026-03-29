@@ -20,8 +20,10 @@ const About = () => {
                 <div className = "about__data grid">
                     <div className = "about__info"> <br/>
                         <p className = "about_description">
-                            I am Riya Singh, attaining a Bachelors degree in Computer Science at University of Central Florida.
-
+                            Hi! I am Riya, Software Engineer by profession and overthinker by nature.
+                            I graduated with a Bachelors degree in Computer Science from University of Central Florida.
+                            Talk about different fields in software engineering and how/why you chose to experience a little bit of each
+                            and then decided embedded!!!
                         </p><br/>
                         <a className = "btn" onClick={handleClick}> Download Resume</a>
                     </div>
