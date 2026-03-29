@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.783a39e3.css",
-    "main.js": "/Portfolio/static/js/main.e399e3c8.js",
+    "main.css": "/Portfolio/static/css/main.08ad32ec.css",
+    "main.js": "/Portfolio/static/js/main.657d4cd1.js",
     "static/media/RiyaSinghResume.pdf": "/Portfolio/static/media/RiyaSinghResume.53606b3b3b92ce54d4da.pdf",
     "static/media/work-4.png": "/Portfolio/static/media/work-4.6964a90da65826e6e8a2.png",
     "static/media/work-3.svg": "/Portfolio/static/media/work-3.78ab5df87d7f465189c2e19badff2843.svg",
@@ -13,11 +13,11 @@
     "static/media/work-5.svg": "/Portfolio/static/media/work-5.a6412cfe4af62b1264c29fbd7d927a4f.svg",
     "static/media/dots-bg.svg": "/Portfolio/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/Portfolio/index.html",
-    "main.783a39e3.css.map": "/Portfolio/static/css/main.783a39e3.css.map",
-    "main.e399e3c8.js.map": "/Portfolio/static/js/main.e399e3c8.js.map"
+    "main.08ad32ec.css.map": "/Portfolio/static/css/main.08ad32ec.css.map",
+    "main.657d4cd1.js.map": "/Portfolio/static/js/main.657d4cd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.783a39e3.css",
-    "static/js/main.e399e3c8.js"
+    "static/css/main.08ad32ec.css",
+    "static/js/main.657d4cd1.js"
   ]
 }
