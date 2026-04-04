@@ -4,12 +4,26 @@ import AboutPic from "../../assets/avatar-4.svg";
 import AboutBox from "./AboutBox";
 import Resume from "../../assets/RiyaSinghResume.pdf"
 
+import timelineElements from "./timelineElements";
+
+import {
+    VerticalTimeline, 
+    VerticalTimelineElement
+} from "react-vertical-timeline-component";
+
+import "react-vertical-timeline-component/style.min.css";
+
+
 const handleClick = () => 
 {
     window.open(Resume);
 };
 
 const About = () => {
+
+    let workIconStyle = { background: "#06D6A0" };
+    let schoolIconStyle = { background: "#f9c74f" };
+
     return (
         <section className="about container" id = "about">
             <h2 className = "section_title">About Me</h2>
@@ -62,6 +76,40 @@ const About = () => {
                             </div>
                         </div>
 
+                    </div>
+
+                    <div>
+                        <h1 className="timeline_title" >Timeline</h1>
+                        <VerticalTimeline>
+                            {
+                                timelineElements.map((element) => {
+                                    let isWorkIcon = element.icon === "work";
+
+                                    return (
+                                        <VerticalTimelineElement
+                                          key={element.id}
+                                          date={element.date}
+                                          dateClassName="date"
+                                          iconStyle={isWorkIcon ? workIconStyle : schoolIconStyle}
+                                          icon={isWorkIcon
+                                                ? <i className="fas fa-briefcase"></i>
+                                                : <i className="fas fa-graduation-cap"></i>
+                                               }
+                                        >
+                                            <h3 className="vertical-timeline-element-title">
+                                                {element.title}
+                                            </h3>
+                                            <h5 className="vertical-timeline-element-subtitle">
+                                                {element.subtitle}
+                                            </h5>
+                                            <p id="description">
+                                                {element.description}
+                                            </p>
+                                        </VerticalTimelineElement>
+                                    );
+                                })
+                            }
+                        </VerticalTimeline>
                     </div>
                 </div>
 
