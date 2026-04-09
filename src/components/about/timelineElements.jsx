@@ -6,6 +6,7 @@ let timelineElements = [
         description: "",
         date: "August 2020 to May 2024",
         icon: "school",
+        image: "img1.JPG"
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ let timelineElements = [
         description: "",
         date: "May 2023 to August 2023",
         icon: "work",
+        image: "img2.JPG"
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ let timelineElements = [
         description: "Worked on EZ-RASSOR",
         date: "August 2023 to May 2024",
         icon: "work",
+        image: "img3.JPG"
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ let timelineElements = [
         description: "",
         date: "October 2023 to May 2024",
         icon: "work",
+        image: "img4.JPG"
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ let timelineElements = [
         description: "",
         date: "July 2024 to present",
         icon: "work",
+        image: "img5.JPG"
     },
 ]
 

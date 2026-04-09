@@ -4,7 +4,7 @@ const AboutBox = () =>
 {
     return (
         <div className="about__boxes grid">
-            <div className = "about__box">
+            {/* <div className = "about__box">
                 <i className = "about__icon icon-fire"></i>
 
                 <div>
@@ -20,17 +20,8 @@ const AboutBox = () =>
                     <h3 className = "about__title">3389</h3>
                     <span className = "about__subtitle">Cup(s) of Coffee</span>
                 </div>
-            </div>
+            </div> */}
             
-            {/*<div className = "about__box">
-                <i className = "about__icon icon-people"></i>
-
-                <div>
-                    <h3 className = "about__title">427</h3>
-                    <span className = "about__subtitle">Satisfied clients</span>
-                </div>
-            </div>
-            */}
 
         </div>
     )

@@ -21,8 +21,8 @@ const handleClick = () =>
 
 const About = () => {
 
-    let workIconStyle = { background: "#06D6A0" };
-    let schoolIconStyle = { background: "#f9c74f" };
+    let workIconStyle = { background: "#06D6A0", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: "24px", lineHeight: 1 };
+    let schoolIconStyle = { background: "#f9c74f", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: "24px", lineHeight: 1 };
 
     return (
         <section className="about container" id = "about">
@@ -77,42 +77,46 @@ const About = () => {
                         </div>
 
                     </div>
-
-                    <div>
-                        <h1 className="timeline_title" >Timeline</h1>
-                        <VerticalTimeline>
-                            {
-                                timelineElements.map((element) => {
-                                    let isWorkIcon = element.icon === "work";
-
-                                    return (
-                                        <VerticalTimelineElement
-                                          key={element.id}
-                                          date={element.date}
-                                          dateClassName="date"
-                                          iconStyle={isWorkIcon ? workIconStyle : schoolIconStyle}
-                                          icon={isWorkIcon
-                                                ? <i className="fas fa-briefcase"></i>
-                                                : <i className="fas fa-graduation-cap"></i>
-                                               }
-                                        >
-                                            <h3 className="vertical-timeline-element-title">
-                                                {element.title}
-                                            </h3>
-                                            <h5 className="vertical-timeline-element-subtitle">
-                                                {element.subtitle}
-                                            </h5>
-                                            <p id="description">
-                                                {element.description}
-                                            </p>
-                                        </VerticalTimelineElement>
-                                    );
-                                })
-                            }
-                        </VerticalTimeline>
-                    </div>
                 </div>
+            </div>
 
+            <div className='timeline_section'>
+                <h1 className="timeline_title" > Journey so far...</h1>
+                <VerticalTimeline>
+                    {
+                        timelineElements.map((element) => {
+                            let isWorkIcon = element.icon === "work";
+
+                            return (
+                                <VerticalTimelineElement
+                                    key={element.id}
+                                    date={element.date}
+                                    dateClassName="date"
+                                    iconStyle={isWorkIcon ? workIconStyle : schoolIconStyle}
+                                    icon={isWorkIcon
+                                        ? <i className="fas fa-briefcase"></i>
+                                        : <i className="fas fa-graduation-cap"></i>
+                                        }
+                                >
+                                    <h3 className="vertical-timeline-element-title">
+                                        {element.title}
+                                    </h3>
+                                    <h5 className="vertical-timeline-element-subtitle">
+                                        {element.subtitle}
+                                    </h5>
+                                    <p id="description">
+                                        {element.description}
+                                    </p>
+
+                                    <div className="timeline-image-wrapper">
+                                      <img src={`/Portfolio/images/${element.image}`} alt={element.title} />
+                                    </div>
+
+                                </VerticalTimelineElement>
+                            );
+                        })
+                    }
+                </VerticalTimeline>
             </div>
 
             <AboutBox />

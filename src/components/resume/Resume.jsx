@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import "./resume.css";
 import Data from "./Data";
 import Card from "./Card";
@@ -22,8 +22,9 @@ const Resume = () =>
                                 title = {val.title} 
                                 year = {val.year} 
                                 desc = {val.desc}/>
-                            )
+                            );
                         }
+                        return null;
                     })}
                 </div>
 
@@ -38,8 +39,9 @@ const Resume = () =>
                                 title = {val.title} 
                                 year = {val.year} 
                                 desc = {val.desc}/>
-                            )
+                            );
                         }
+                        return null;
                     })}
                 </div>
             </div>
@@ -47,4 +49,4 @@ const Resume = () =>
     )
 }
 
-export default Resume*/
+export default Resume
