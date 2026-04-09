@@ -24,7 +24,7 @@ let timelineElements = [
         description: "Worked on EZ-RASSOR",
         date: "August 2023 to May 2024",
         icon: "work",
-        image: "img3.JPG"
+        image: "img3.jpg"
     },
     {
         id: 4,
